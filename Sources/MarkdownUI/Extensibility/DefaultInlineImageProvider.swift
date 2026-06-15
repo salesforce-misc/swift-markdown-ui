@@ -1,4 +1,9 @@
-import NetworkImageView
+// See DefaultImageProvider.swift for the SPM-vs-CocoaPods rationale.
+#if canImport(NetworkImageView)
+@_implementationOnly import NetworkImageView
+#else
+@_implementationOnly import NetworkImage
+#endif
 import SwiftUI
 
 /// The default inline image provider, which loads images from the network.

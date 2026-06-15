@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'swift-markdown-ui'
-  s.version          = '2.4.0'
+  s.version          = '2.4.2'
   s.summary          = 'A framework to render markdown UI'
 
   s.description      = <<-DESC
@@ -10,7 +10,7 @@ A swift UI rendering of Markdown content supporting most of GitHub Flavored Mark
   s.homepage         = 'https://github.com/salesforce-misc/swift-markdown-ui'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Salesforce' => '' }
-  s.source           = { :git => 'https://github.com/salesforce-misc/swift-markdown-ui.git', :tag => "2.4.0" }
+  s.source           = { :git => 'https://github.com/salesforce-misc/swift-markdown-ui.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.0'
   s.swift_versions = ["5.0", "5.1"]
